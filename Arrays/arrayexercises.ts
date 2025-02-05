@@ -11,6 +11,7 @@ type Product = {
   price: 9.99;
 };
 
+//function calling
 function getTotal(products: Product[]): number {
   let total = 0;
   products.forEach((product) => {
